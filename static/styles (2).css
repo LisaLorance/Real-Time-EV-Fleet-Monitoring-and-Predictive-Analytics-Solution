@@ -1,0 +1,95 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 0;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Shared Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #007BFF;
+    color: white;
+}
+
+/* Driver Behavior Styles */
+.behavior-score {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#score-circle {
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    border-radius: 50%;
+    background: conic-gradient(#28a745 0%, #ffc107 70%, #dc3545 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#score {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+}
+
+/* Maintenance Alerts Styles */
+.alert-list th {
+    background-color: #dc3545;
+}
+
+.alert-list .critical {
+    color: red;
+    font-weight: bold;
+}
+
+.alert-list .warning {
+    color: orange;
+    font-weight: bold;
+}
+
+.alert-list .info {
+    color: green;
+    font-weight: bold;
+}
+
+/* Page-Specific Layout Enhancements */
+.behavior-score h2,
+.alert-list h2 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    color: #333;
+}
